@@ -1,0 +1,26 @@
+<lint-module
+    format="1"
+    dir="/Users/malavika.vv/Video_Editor_SDK/trainer-video-editor-rn-sdk/sample_app_rn/node_modules/react-native-bridge-rn/android"
+    name=":react-native-bridge-rn"
+    type="LIBRARY"
+    maven="sample_app_rn:react-native-bridge-rn:"
+    agpVersion="8.2.1"
+    buildFolder="build"
+    bootClassPath="/Users/malavika.vv/Library/Android/sdk/platforms/android-34/android.jar:/Users/malavika.vv/Library/Android/sdk/build-tools/34.0.0/core-lambda-stubs.jar"
+    javaSourceLevel="17"
+    compileTarget="android-34"
+    neverShrinking="true">
+  <lintOptions
+      disable="GradleCompatible"
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true">
+    <severities>
+      <severity
+        id="GradleCompatible"
+        severity="IGNORE" />
+    </severities>
+  </lintOptions>
+  <variant name="release"/>
+</lint-module>

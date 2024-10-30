@@ -1,0 +1,6 @@
+framework module TrainerVideoSDK {
+  umbrella header "TrainerVideoSDK.h"
+  export *
+
+  module * { export * }
+}

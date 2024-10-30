@@ -1,0 +1,24 @@
+{
+  "name": "react-native-bridge-rn",
+  "version": "0.0.1",
+  "description": "bridge rn for video editor",
+  "main": "src/index.tsx",
+  "author": {
+    "name": "Travancore Analytics"
+  },
+  "files": [
+    "android",
+    "ios",
+    "index.ts",
+    "react-native-bridge-boilerplate.podspec"
+  ],
+  "license": "UNLICENSED",
+  "homepage": "#readme",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "create-react-native-library": {
+    "type": "module-legacy",
+    "languages": "kotlin-swift",
+    "version": "0.41.2"
+  }
+}
